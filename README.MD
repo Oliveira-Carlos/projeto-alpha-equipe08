@@ -1,0 +1,1 @@
+Exercicio criado no intuito de realizar o exercicio do curso da Alpha <ED/Tech> sobre github.
