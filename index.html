@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seja um treinador pokémon</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Seja um treinador Pokémon
+        </h1>
+    </header>
+    <div>
+        <p>
+            Preencha com seus dados, escolha seu pokémon inicial
+            e venha hoje mesmo ser um treinador pokémon.<br>
+            Está pronto para embarcar nessa aventura?
+        </p>
+    </div>
+    <section>
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <fieldset>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" >
+                </div>
+                <div>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome">
+                </div>
+                <div>
+                    <label for="nascimento">Data de nascimento:</label>
+                    <input type="date" name="nascimento" id="nascimento">
+                </div>
+                <div>
+                    <label>Sexo:</label>
+                    <label>
+                        <input type="radio" name="sexo" value="male"/> Masculino
+                    </label>
+                    <label>
+                        <input type="radio" name="sexo" value="female"/> Feminino
+                    </label>
+                </div>
+             </fieldset>
+             <fieldset>
+                <label for="cidade">Cidade:</label>
+                <input type="local" name="cidade" id="cidade">
+                <label for="estado">Estado:</label>
+                <input type="text" name="estado" id="estado">
+                <label for="celular">Celular:</label>
+                <input type="number" name="celular" id="celular">
+             </fieldset>
+             <fieldset>
+                <div>
+                    <label>Quais classes de treinador você mais se identifica?</label><br>
+                    <input type="checkbox" id="TREINADOR" name="TREINADOR" value="TREINADOR">
+                    <label for="TREINADOR">TREINADOR POKÉMON</label>
+                    <br>
+                    <input type="checkbox" id="LIDER" name="LIDER" value="LIDER">
+                    <label for="LIDER">LÍDER DE GINÁSIO</label>
+                    <br>
+                    <input type="checkbox" id="campeao" name="campeao" value="campeao">
+                    <label for="campeao">CAMPEÃO DA LIGA POKÉMON</label>
+                    <br>
+                    <input type="checkbox" id="COORDENADOR" name="COORDENADOR" value="COORDENADOR">
+                    <label for="COORDENADOR">COORDENADOR POKÉMON</label>
+                    <br>
+                    <input type="checkbox" id="CRIADOR" name="CRIADOR" value="CRIADOR">
+                    <label for="CRIADOR">CRIADOR POKÉMON</label>
+                    <br>
+                    <input type="checkbox" id="PATRULHEIRO" name="PATRULHEIRO" value="PATRULHEIRO">
+                    <label for="PATRULHEIRO">PATRULHEIRO</label>
+                    <br>
+                    <input type="checkbox" id="OBSERVADOR" name="OBSERVADOR" value="OBSERVADOR">
+                    <label for="OBSERVADOR">OBSERVADOR POKÉMON</label>
+                    <br>
+                    <input type="checkbox" id="PROFESSOR" name="PROFESSOR" value="PROFESSOR">
+                    <label for="PROFESSOR">PROFESSOR POKÉMON</label>
+                    <br>
+                </div>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section>
+        <h3>
+            Estamos quase lá!!
+        </h3>
+        <p>
+            Agora você só precisa ir até o centro pokémon ou o professor pokémon 
+            mais próximo de você para escolher seu pokémon inicial.
+        </p>
+    </section>
+    <section>
+        <h3>
+            Enquanto isso vamos conhcer um pouco mais sobre os pokémons iniciais.
+            <br>Ele irá acompanhar você nessa grande jornada!
+        </h3>
+        <!-- aqui vão ficar os links das páginas com os cards -->
+    </section>
+</body>
+</html>
