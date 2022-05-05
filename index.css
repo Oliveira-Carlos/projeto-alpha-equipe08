@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#titulo1{
+    font-family:verdana;
+    color: rgba(0, 0, 255, 0.699);
+}
+#subtitulo1{
+    font-family:verdana;
+    color:rgba(0, 0, 255, 0.699);
+}
+fieldset{
+    border:0;
+}
+body{
+    background-color:rgba(127, 255, 212, 0.549);
+    font-family: verdana;
+    font-size: 1em;
+    color:rgba(0, 0, 255, 0.699);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+button{
+    border-radius: 5px;
+}
+.campo{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgba(0, 0, 255, 0.699);
+    display:block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo imput[type="text"]{
+    padding: 0.2em;
+    border: 1px solid rgba(0, 0, 255, 0.699);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.282);
+    display: block;
+}
+.campo option{
+    padding-right: 1em;
+}
+.button{
+    background: yellow;
+    border: 0ch;
+    margin-bottom: 1em;
+    color: aliceblue;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.282);
+    text-shadow: rgba(0, 0, 0, 0.862);
+    top: 90%;
+    left: 50%;
+    margin-right:auto;
+    transform: translate(-50% -50%);
+}
+button:hover{
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px 2px;
+    text-shadow: none;
+}
+#form{
+    display: inline-block;
+}
