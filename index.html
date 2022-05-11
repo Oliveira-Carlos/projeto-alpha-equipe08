@@ -4,55 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css" media="">
+    <link rel="stylesheet" type="text/css" href="index.css" >
     <title>Seja um treinador pokémon</title>
 </head>
 <body>
     <header>
-        <h1 id="titulo1">
+        <h1>
             Bem vindo ao mundo
         </h1>
+        <img src="./imagens/fonte-pokemon-titulo.svg"
+         alt="nome 'pokémon' na fonte de pokemon" >
+        <h2> 
+            Você já deve ter ouvido falar em Pokémon, mas afinal o que são? <br>
+            Os Pokémons são criaturas de todos os tipos e tamanhos. <br>
+            Enquanto treinador de Pokémon cabe a você a tarefa de capturar,<br> 
+            treinar e combater outros Pokémons. Há centenas de Pokémons diferentes!
+        </h2>
         <br>
     </header>
-    <div>
-        <a href="https://fontmeme.com/pt/fonte-de-pokemon/">
-            <img src="https://fontmeme.com/permalink/220505/71fd540a76ce92ba7400e4e6598309fa.png"
-             alt="fonte-de-pokemon" ></a>
-            </div>
-    <h3 id="subtitulo1"> 
-        Se calhar já ouviste falar em Pokémon, mas afinal o que são? <br>
-        Os Pokémon são criaturas de todos os feitios e tamanhos. <br>
-        Enquanto treinador de Pokémon cabe-te a tarefa de capturar,<br> 
-        treinar e combater Pokémon. Há mais de 800 Pokémon diferentes!
-    </h3>
-    <div>
-        <a href="https://fontmeme.com/pt/fonte-de-pokemon/">
-            <img src="https://fontmeme.com/permalink/220505/8dbaeabc0db331f8c5bfd1357d34d681.png" 
-            alt="fonte-de-pokemon" ></a>
-    </div>
-    <div>
-        <p id="subtitulo2">
-            Preencha com seus dados, escolha seu pokémon inicial
-            e venha ser um treinador pokémon.<br>
-            Está pronto para embarcar nessa aventura?
-        </p>
-    </div>
     <section id="form">
-        <form action="/pagina-processa-dados-do-form" method="post">
-            <fieldset class="grupo">
-                <div class="campo">
+        <img src="./imagens/fonte-pokemon-subtitulo.svg" 
+        alt="frase 'Seja um treinador pokémon' na fonte de pokemon" >
+    <p>
+        Preencha com seus dados, escolha seu pokémon inicial
+        e venha ser um treinador pokémon.<br>
+        Está pronto para embarcar nessa aventura?
+    </p>
+        <form  method="post">
+            <fieldset>
                     <label for="nome">Nome:</label>
                     <input type="text" id="nome" name="nome" required >
-                </div>
-                <div class="campo">
+                    <br>
                     <label for="sobrenome">Sobrenome:</label>
                     <input type="text" name="sobrenome" id="sobrenome" required>
-                </div>
-                <div class="campo">
+                    <br>
                     <label for="nascimento">Data de nascimento:</label>
                     <input type="date" name="nascimento" id="nascimento" required>
-                </div>
-                <div class="campo" >
+                    <br>
                     <label>Sexo:</label>
                     <label>
                         <input type="radio" name="sexo" value="male"/> Masculino
@@ -60,21 +48,17 @@
                     <label>
                         <input type="radio" name="sexo" value="female"/> Feminino
                     </label>
-                </div>
-             </fieldset>
-             <fieldset class="grupo">
-                 <div class="campo">
-                <label for="cidade">Cidade:</label>
-                <input type="local" name="cidade" id="cidade" required>
-                <label for="estado">Estado:</label>
-                <input type="text" name="estado" id="estado" required>
-                <label for="celular">Celular:</label>
-                <input type="number" name="celular" id="celular" required>
-                 </div>
-             </fieldset>
-             <fieldset class="grupo">
-                <div>
-                    <label>Quais classes de treinador você mais se identifica?</label><br>
+                    <br>
+                    <label for="cidade">Cidade:</label>
+                    <input type="local" name="cidade" id="cidade" required>
+                    <br>
+                    <label for="estado">Estado:</label>
+                    <input type="text" name="estado" id="estado" required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <label>Qual classe de treinador você mais se identifica?(pode marcar mais de uma)</label><br>
                     <input type="checkbox" id="TREINADOR" name="TREINADOR" value="TREINADOR">
                     <label for="TREINADOR">TREINADOR POKÉMON</label>
                     <br>
@@ -99,22 +83,19 @@
                     <input type="checkbox" id="PROFESSOR" name="PROFESSOR" value="PROFESSOR">
                     <label for="PROFESSOR">PROFESSOR POKÉMON</label>
                     <br>
-                </div>
             </fieldset>
             <button class="button" type="submit">Enviar</button>
         </form>
     </section>
-    <section>
+    <section >
         <h3>
             Estamos quase lá!!<br>
             Agora você já pode escolher o seu pokémon inicial,
             ele irá acompanhar você nessa grande jornada!
         </h3>
-        <p>
-            <a href="#">Bulbasaur</a>
-            <a href="#">Squirtle</a>
-            <a href="#">Charmander</a>
-        </p>
+            <a href="bulbasaur.html">Bulbasaur<img src="./imagens/headbulbasaur.svg"></a>
+            <a href="squirtle.html">Squirtle<img src="./imagens/headsquirtle.svg"></a>
+            <a href="charmander.html">Charmander<img src="./imagens/headcharmander.svg"></a>
     </section>
 </body>
 </html>
