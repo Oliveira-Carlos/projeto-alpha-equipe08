@@ -42,3 +42,12 @@ button:hover{
 #form{
     display: inline-block;
 }
+footer {
+    margin: 20px;
+}
+ul {
+    color: brown;
+}
+li {
+    color: black;
+}
